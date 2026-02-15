@@ -1,0 +1,40 @@
+# ── Python ──────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual environments ────────────────────────
+venv/
+.venv/
+env/
+
+# ── Backend data (generated at runtime) ─────────
+backend/codecontext.db
+backend/repos/
+backend/chroma_data/
+
+# ── Environment secrets ─────────────────────────
+.env
+backend/.env
+
+# ── Node / Frontend ─────────────────────────────
+node_modules/
+frontend/dist/
+frontend/.cache/
+
+# ── IDE / OS ────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ────────────────────────────────────────
+*.log
